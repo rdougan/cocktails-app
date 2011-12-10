@@ -1,0 +1,119 @@
+$base-color: #26292e;
+
+@import 'sencha-touch/default/all';
+
+@include sencha-panel;
+@include sencha-buttons;
+//@include sencha-sheet;
+//@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+//@include sencha-toolbar-forms;
+//@include sencha-indexbar;
+//@include sencha-list;
+@include sencha-layout;
+//@include sencha-carousel;
+//@include sencha-form;
+//@include sencha-loading-spinner;
+
+@include pictos-iconmask('maps');
+@include pictos-iconmask('photo2');
+
+//tabbar
+.x-tab {
+    margin: 0 1px;
+}
+
+.x-tab-share {
+    @include background-gradient(#eee, matte);
+
+    .x-button-label {
+        color: #000;
+        text-shadow: 0 0 0;
+    }
+
+    &.x-tab-active {
+        background-image: none !important;
+        background-color: #eee !important;
+        border-color: #ccc;
+    }
+}
+
+//browse index
+.browse-index {
+    .x-item-selected {
+        background: darken(#fff, 3);
+    }
+
+    .item {
+        @include display-box;
+        @include box-orient(horizontal);
+
+        padding: .8em;
+
+        img {
+            display: none;
+        }
+
+        .person {
+            padding-right: .5em;
+            .avatar {
+                width: 3em;
+                height: 3em;
+                background: #ddd;
+                @include border-radius(.3em);
+                background-size: auto 120%;
+                background-position: center center;
+            }
+
+            .name {
+                font-size: .8em;
+                text-align: center;
+                padding-top: .5em;
+            }
+        }
+
+        .photo {
+            @include box-flex(1);
+
+            .img {
+                width: 100%;
+                height: 9em;
+                background: #ddd;
+                @include border-radius(.3em);
+                background-size: 100% auto;
+            }
+
+            .comment {
+                font-size: .8em;
+                padding-top: .5em;
+            }
+        }
+    }
+}
+
+//search
+.x-toolbar-plain {
+    background-image: none;
+    background: #fff;
+    border: 0;
+
+    .x-clear-icon,
+    .x-form-label {
+        display: none;
+    }
+
+    .x-component-outer,
+    .x-field-input,
+    input {
+        width: 100%;
+    }
+
+    input {
+        border: 0;
+    }
+
+    .x-field-input {
+        padding: 0 .5em;
+    }
+}

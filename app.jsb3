@@ -1,0 +1,799 @@
+{
+    "projectName": "Cocktails",
+    "licenseText": "Copyright(c) 2011 Cocktails Company",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "path": "lib/touch2/src/event/publisher/",
+                    "name": "Publisher.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Operation.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "IdGenerator.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "validations.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/association/",
+                    "name": "Association.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "Event.js"
+                },
+                {
+                    "path": "lib/touch2/src/dom/",
+                    "name": "Helper.js"
+                },
+                {
+                    "path": "lib/touch2/src/dom/",
+                    "name": "Query.js"
+                },
+                {
+                    "path": "lib/touch2/src/mixin/",
+                    "name": "Identifiable.js"
+                },
+                {
+                    "path": "lib/touch2/src/mixin/",
+                    "name": "Mixin.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "SortTypes.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Sorter.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Filter.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/writer/",
+                    "name": "Writer.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "ListenerStack.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "ResultSet.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "Controller.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "ComponentManager.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "Dom.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Types.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Field.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Sortable.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/writer/",
+                    "name": "Json.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "Dispatcher.js"
+                },
+                {
+                    "path": "lib/touch2/src/mixin/",
+                    "name": "Observable.js"
+                },
+                {
+                    "path": "lib/touch2/src/app/",
+                    "name": "Controller.js"
+                },
+                {
+                    "path": "lib/touch2/src/dom/",
+                    "name": "Element.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/publisher/",
+                    "name": "Dom.js"
+                },
+                {
+                    "path": "lib/touch2/src/dom/",
+                    "name": "CompositeElementLite.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "AbstractMixedCollection.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "MixedCollection.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "StoreManager.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Errors.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "HashMap.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "AbstractManager.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "ModelManager.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Connection.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Ajax.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/reader/",
+                    "name": "Reader.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/reader/",
+                    "name": "Json.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/proxy/",
+                    "name": "Proxy.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/proxy/",
+                    "name": "Server.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/proxy/",
+                    "name": "Ajax.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Model.js"
+                },
+                {
+                    "path": "lib/touch2/src/app/",
+                    "name": "Application.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Validator.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Point.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/",
+                    "name": "Touch.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/publisher/",
+                    "name": "TouchGesture.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Recognizer.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Touch.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "SingleTouch.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Drag.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Tap.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "DoubleTap.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "LongPress.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Swipe.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "HorizontalSwipe.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "MultiTouch.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Pinch.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/recognizer/",
+                    "name": "Rotate.js"
+                },
+                {
+                    "path": "lib/touch2/src/mixin/",
+                    "name": "Traversable.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "EventedBase.js"
+                },
+                {
+                    "path": "lib/touch2/src/behavior/",
+                    "name": "Behavior.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "XTemplateParser.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Format.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "ComponentQuery.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "SizeMonitor.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/easing/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "AbstractComponent.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "XTemplateCompiler.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Template.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "XTemplate.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/easing/",
+                    "name": "Linear.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/",
+                    "name": "Easing.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/translatable/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/translatable/",
+                    "name": "CssTransform.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/translatable/",
+                    "name": "ScrollPosition.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Translatable.js"
+                },
+                {
+                    "path": "lib/touch2/src/behavior/",
+                    "name": "Translatable.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Draggable.js"
+                },
+                {
+                    "path": "lib/touch2/src/behavior/",
+                    "name": "Draggable.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Component.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/publisher/",
+                    "name": "ComponentDelegation.js"
+                },
+                {
+                    "path": "lib/touch2/src/event/publisher/",
+                    "name": "ComponentPaint.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/",
+                    "name": "Base.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/",
+                    "name": "Logger.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/formatter/",
+                    "name": "Formatter.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/writer/",
+                    "name": "Writer.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/writer/",
+                    "name": "Console.js"
+                },
+                {
+                    "path": "lib/touch2/src/log/formatter/",
+                    "name": "Default.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/",
+                    "name": "State.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Slide.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Pop.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Flip.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Cube.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/animation/",
+                    "name": "Fade.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/",
+                    "name": "Animation.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/runner/",
+                    "name": "Css.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/runner/",
+                    "name": "CssTransition.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/runner/",
+                    "name": "CssAnimation.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/",
+                    "name": "Runner.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Mask.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "LoadMask.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "ItemCollection.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "Default.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/indicator/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "AbstractBox.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "Easing.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "Bounce.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "Momentum.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "Fit.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "HBox.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "VBox.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/indicator/",
+                    "name": "CssTransform.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/indicator/",
+                    "name": "ScrollPosition.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/",
+                    "name": "Indicator.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Style.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Slide.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Fade.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Flip.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Cube.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Pop.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "BoundMomentum.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "Linear.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/easing/",
+                    "name": "EaseOut.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/card/",
+                    "name": "Scroll.js"
+                },
+                {
+                    "path": "lib/touch2/src/fx/layout/",
+                    "name": "Card.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "Card.js"
+                },
+                {
+                    "path": "lib/touch2/src/layout/",
+                    "name": "Layout.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/scroller/",
+                    "name": "Abstract.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/scroller/",
+                    "name": "CssTransform.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/scroller/",
+                    "name": "CssPosition.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/scroller/",
+                    "name": "ScrollPosition.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/",
+                    "name": "Scroller.js"
+                },
+                {
+                    "path": "lib/touch2/src/scroll/",
+                    "name": "View.js"
+                },
+                {
+                    "path": "lib/touch2/src/behavior/",
+                    "name": "Scrollable.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Container.js"
+                },
+                {
+                    "path": "lib/touch2/src/viewport/",
+                    "name": "Default.js"
+                },
+                {
+                    "path": "lib/touch2/src/viewport/",
+                    "name": "Ios.js"
+                },
+                {
+                    "path": "lib/touch2/src/viewport/",
+                    "name": "Android.js"
+                },
+                {
+                    "path": "lib/touch2/src/viewport/",
+                    "name": "Viewport.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Request.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Batch.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "AbstractStore.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "Grouper.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/proxy/",
+                    "name": "Client.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/proxy/",
+                    "name": "Memory.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "Store.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/",
+                    "name": "ArrayStore.js"
+                },
+                {
+                    "path": "lib/touch2/src/data/reader/",
+                    "name": "Array.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Guides.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Share.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Profile.js"
+                },
+                {
+                    "path": "app/model/",
+                    "name": "BrowseItem.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Search.js"
+                },
+                {
+                    "path": "app/store/",
+                    "name": "Bartender.js"
+                },
+                {
+                    "path": "app/store/",
+                    "name": "Latest.js"
+                },
+                {
+                    "path": "app/store/",
+                    "name": "Featured.js"
+                },
+                {
+                    "path": "app/controller/",
+                    "name": "Browse.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Button.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Title.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Spacer.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Toolbar.js"
+                },
+                {
+                    "path": "lib/touch2/src/tab/",
+                    "name": "Tab.js"
+                },
+                {
+                    "path": "lib/touch2/src/tab/",
+                    "name": "Bar.js"
+                },
+                {
+                    "path": "lib/touch2/src/tab/",
+                    "name": "Panel.js"
+                },
+                {
+                    "path": "lib/touch2/src/mixin/",
+                    "name": "Selectable.js"
+                },
+                {
+                    "path": "lib/touch2/src/dataview/",
+                    "name": "DataView.js"
+                },
+                {
+                    "path": "lib/touch2/src/dataview/",
+                    "name": "IndexBar.js"
+                },
+                {
+                    "path": "lib/touch2/src/dataview/",
+                    "name": "ListItemHeader.js"
+                },
+                {
+                    "path": "lib/touch2/src/dataview/",
+                    "name": "List.js"
+                },
+                {
+                    "path": "app/view/browse/",
+                    "name": "Base.js"
+                },
+                {
+                    "path": "app/view/browse/",
+                    "name": "Bartender.js"
+                },
+                {
+                    "path": "app/view/browse/",
+                    "name": "Featured.js"
+                },
+                {
+                    "path": "app/view/browse/",
+                    "name": "Latest.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "SegmentedButton.js"
+                },
+                {
+                    "path": "app/view/browse/",
+                    "name": "Index.js"
+                },
+                {
+                    "path": "lib/touch2/src/util/",
+                    "name": "GeoLocation.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Map.js"
+                },
+                {
+                    "path": "lib/touch2/src/",
+                    "name": "Decorator.js"
+                },
+                {
+                    "path": "lib/touch2/src/field/",
+                    "name": "Input.js"
+                },
+                {
+                    "path": "lib/touch2/src/field/",
+                    "name": "Field.js"
+                },
+                {
+                    "path": "lib/touch2/src/field/",
+                    "name": "Text.js"
+                },
+                {
+                    "path": "app/view/search/",
+                    "name": "Index.js"
+                },
+                {
+                    "path": "app/view/share/",
+                    "name": "Index.js"
+                },
+                {
+                    "path": "app/view/guides/",
+                    "name": "Index.js"
+                },
+                {
+                    "path": "app/view/profile/",
+                    "name": "Index.js"
+                },
+                {
+                    "path": "app/view/",
+                    "name": "Main.js"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "app-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "lib/touch2-pr3/",
+                    "name": "sencha-touch-debug.js"
+                },
+                {
+                    "path": "",
+                    "name": "all-classes.js"
+                },
+                {
+                    "path": "",
+                    "name": "app.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}
