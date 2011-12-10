@@ -13,3 +13,5 @@ I have not included Sencha Touch in this repository. The steps to include it are
 ## Building the application
 
 If you want to build the application and run the production version (index.html), you must use the SDK Tools. There is a how to available on my blog at (robertdougan.com)[http://robertdougan.com].
+
+You can also access the built version of the application by checking out the `built` branch (which still doens't include Sencha Touch SDK, but runs).
