@@ -11,9 +11,9 @@ Ext.application({
         'Guides',
         'Profile'
     ],
-
+	stores:["Bartender","Featured","Latest"],
     views: ['Main'],
-
+ models: ['BrowseItem'],
     launch: function() {
         Ext.Viewport.add({
             xclass: 'Cocktails.view.Main'
