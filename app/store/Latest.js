@@ -1,6 +1,6 @@
 Ext.define('Cocktails.store.Latest', {
     extend: 'Ext.data.Store',
-
+ config: { 
     model: 'Cocktails.model.BrowseItem',
 
     data: [
@@ -76,5 +76,5 @@ Ext.define('Cocktails.store.Latest', {
             photo: 'http://www.scienceofdrink.com/wp-content/uploads/2009/02/209-east-cocktail.jpg',
             comment: 'I think I\'ve had a little too much of this one.'
         }
-    ]
+    ]}
 });

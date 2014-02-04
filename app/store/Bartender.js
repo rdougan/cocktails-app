@@ -1,8 +1,8 @@
 Ext.define('Cocktails.store.Bartender', {
     extend: 'Ext.data.Store',
-
-    model: 'Cocktails.model.BrowseItem',
-
+    config: {    
+	model: 'Cocktails.model.BrowseItem',
+autoLoad: true,
     data: [
         {
             name: 'Robert',
@@ -29,4 +29,5 @@ Ext.define('Cocktails.store.Bartender', {
             comment: 'Drink.'
         }
     ]
+}
 });

@@ -1,18 +1,17 @@
 Ext.define('Cocktails.controller.Browse', {
     extend: 'Ext.app.Controller',
 
-    stores: ['Bartender', 'Featured', 'Latest'],
-
-    refs: [{
-        ref: 'index',
-        selector: 'browseIndex'
-    }],
-
+   
+ config: {
+    refs: {index:'browseIndex' },
+ stores: ['Bartender'],
+},
     init: function() {
         this.control({
             'segmentedbutton': {
                 toggle: function(segmentedButton, newButton) {
-                    this.getIndex().setActiveItem(segmentedButton.indexOf(newButton));
+                        this.getIndex().setActiveItem(segmentedButton.indexOf(newButton));
+
                 }
             }
         });
